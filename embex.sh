@@ -25,7 +25,7 @@ ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 
 # install webmin
 cd
-wget "https://github.com/radzvpn/VPSauto-1/blob/master/webmin_1.801_all.deb"
+wget "https://raw.githubusercontent.com/radzvpn/TNTNOLOADDNS/master/webmin_1.801_all.deb"
 dpkg --install webmin_1.801_all.deb;
 apt-get -y -f install;
 sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
