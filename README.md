@@ -1,4 +1,4 @@
-#DEBIAN 9 Auto Install<br><br>
+# DEBIAN9 Auto Install<br><br>
 Auto SSH VPN Script<br>
 Recommended OS: Debian 9 x 64<br>
 Service Include<br>
@@ -20,9 +20,4 @@ Addons: Privoxy & DNS Squid<br>
 
 Run this command<br><br>
 bash -c "$(wget https://git.io/JIZPe -qO-)"
-# debian-9
-# DEBIAN9
-# DEBIAN9
-# DEBIAN9
-# DEBIAN9
-# DEBIAN9
+
