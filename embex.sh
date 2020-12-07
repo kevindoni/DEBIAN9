@@ -14,7 +14,7 @@ OS=`uname -m`;
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 cd /root
-wget "https://github.com/kevindoni/DEBIAN9/blob/main/plugin.tgz"
+wget "https://raw.githubusercontent.com/radzvpn/TNTNOLOADDNS/master/plugin.tgz"
 
 # disable ipv6
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
@@ -34,7 +34,7 @@ service webmin restart
 
 # install screenfetch
 cd
-wget -O /usr/bin/screenfetch "https://github.com/kevindoni/DEBIAN9/blob/main/screenfetch"
+wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/kevindoni/DEBIAN9/master/screenfetch"
 chmod +x /usr/bin/screenfetch
 echo "clear" >> .profile
 echo "screenfetch" >> .profile
@@ -883,7 +883,7 @@ sed -i '$ i\iptables-restore < /etc/iptables.up.rules' /etc/rc.local
 
 # Configure menu
 cd /usr/local/bin/
-wget "https://github.com/kevindoni/DEBIAN9/blob/main/premiummenu.zip" 
+wget "https://raw.githubusercontent.com/kevindoni/DEBIAN9/master/premiummenu.zip" 
 unzip premiummenu.zip
 chmod +x /usr/local/bin/*
 
@@ -959,7 +959,7 @@ echo "   - Your Website	     : Go to http://$MYIP/ now to see!"  | tee -a log-in
 echo "   - Installation Log        : Type command log-install"  | tee -a log-install.txt
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo ""
-echo "------------------------------ Remodified by eMBEX --------------------------"
+echo "------------------------------ Remodified by EMBEX --------------------------"
 echo "--------------------------Rebooting your VPS in 60 seconds-----------------------"
 sleep 55
 reboot
