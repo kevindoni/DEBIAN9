@@ -2686,7 +2686,7 @@ asciiText () {
 "  $c1          \`\"Y\$b._             %s"
 "  $c1              \`\"\"\"\"           %s"
 "                                %s"
-" $c2 Script Remodified by reputation"
+" $c2 Script Remodified by Embex"
 " $c2 Type 'menu' to see list menu"
 " $c2 ")
 			;;
